@@ -20,7 +20,7 @@ function fuzzyMatch(drivers, str)
 {
   let len_str = str.length 
   let matches = drivers.filter(driver => { 
-  return (driver.toLowerCase()}); 
+   
   return matches 
 }
 
