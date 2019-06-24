@@ -20,9 +20,8 @@ function fuzzyMatch(drivers, str)
 {
   let len_str = str.length 
   let matches = drivers.filter(driver => { 
-   
-  return matches 
-}
+  
+  }
 
 
 // ### Write a Function To Match `object` Values To a Provided `string`
