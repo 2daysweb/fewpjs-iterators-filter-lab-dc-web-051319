@@ -29,9 +29,11 @@ function matchName(drivers, string){
   
   let matches = drivers.filter(driver => {
     
-    return driver.name === string 
+    return (driver.name === string) 
     
   })
+  
+  return matches 
   
 }
 
