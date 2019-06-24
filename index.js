@@ -18,7 +18,7 @@ function findMatching(drivers, name)
 function fuzzyMatch(drivers, str) {
   let len_str = str.length 
   let matches = drivers.filter(driver => { 
-    return driver.startsWith(str)
+    return driver.startsWith(str);
   })
 
  return matches
