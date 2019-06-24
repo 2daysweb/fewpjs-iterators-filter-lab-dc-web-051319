@@ -16,12 +16,12 @@ function findMatching(drivers, name)
 
 }
 
-function fuzzyMatch(drivers, str)
-{
+function fuzzyMatch(drivers, str) {
   let len_str = str.length 
   let matches = drivers.filter(driver => { 
-  
-  }
+    return driver.startsWith(str);
+  })
+}
 
 
 // ### Write a Function To Match `object` Values To a Provided `string`
